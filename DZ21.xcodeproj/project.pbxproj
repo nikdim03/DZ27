@@ -10,9 +10,20 @@
 		2C1364952956328C00CF8461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364942956328C00CF8461 /* AppDelegate.swift */; };
 		2C1364972956328C00CF8461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364962956328C00CF8461 /* SceneDelegate.swift */; };
 		2C1364992956328C00CF8461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364982956328C00CF8461 /* ViewController.swift */; };
-		2C13649C2956328C00CF8461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C13649A2956328C00CF8461 /* Main.storyboard */; };
 		2C13649E2956328D00CF8461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C13649D2956328D00CF8461 /* Assets.xcassets */; };
 		2C1364A12956328D00CF8461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C13649F2956328D00CF8461 /* LaunchScreen.storyboard */; };
+		2C1364AB2956330200CF8461 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364AA2956330200CF8461 /* CatView.swift */; };
+		2C1364AD2956330E00CF8461 /* CatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364AC2956330E00CF8461 /* CatInteractor.swift */; };
+		2C1364AF2956335200CF8461 /* CatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364AE2956335200CF8461 /* CatPresenter.swift */; };
+		2C1364B12956335F00CF8461 /* CatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364B02956335F00CF8461 /* CatEntity.swift */; };
+		2C1364B32956336D00CF8461 /* CatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364B22956336D00CF8461 /* CatRouter.swift */; };
+		2C1364B52956337B00CF8461 /* RandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364B42956337B00CF8461 /* RandView.swift */; };
+		2C1364B72956338800CF8461 /* RandInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364B62956338800CF8461 /* RandInteractor.swift */; };
+		2C1364B92956339A00CF8461 /* RandPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364B82956339A00CF8461 /* RandPresenter.swift */; };
+		2C1364BB295633A700CF8461 /* RandEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364BA295633A700CF8461 /* RandEntity.swift */; };
+		2C1364BD295633B300CF8461 /* RandRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364BC295633B300CF8461 /* RandRouter.swift */; };
+		2C1364BF295634B600CF8461 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364BE295634B600CF8461 /* Collection+Extension.swift */; };
+		2C1364C1295636F800CF8461 /* CatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1364C0295636F800CF8461 /* CatCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +31,21 @@
 		2C1364942956328C00CF8461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C1364962956328C00CF8461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C1364982956328C00CF8461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C13649B2956328C00CF8461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C13649D2956328D00CF8461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C1364A02956328D00CF8461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1364A22956328D00CF8461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1364AA2956330200CF8461 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		2C1364AC2956330E00CF8461 /* CatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatInteractor.swift; sourceTree = "<group>"; };
+		2C1364AE2956335200CF8461 /* CatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPresenter.swift; sourceTree = "<group>"; };
+		2C1364B02956335F00CF8461 /* CatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatEntity.swift; sourceTree = "<group>"; };
+		2C1364B22956336D00CF8461 /* CatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRouter.swift; sourceTree = "<group>"; };
+		2C1364B42956337B00CF8461 /* RandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandView.swift; sourceTree = "<group>"; };
+		2C1364B62956338800CF8461 /* RandInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandInteractor.swift; sourceTree = "<group>"; };
+		2C1364B82956339A00CF8461 /* RandPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandPresenter.swift; sourceTree = "<group>"; };
+		2C1364BA295633A700CF8461 /* RandEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandEntity.swift; sourceTree = "<group>"; };
+		2C1364BC295633B300CF8461 /* RandRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandRouter.swift; sourceTree = "<group>"; };
+		2C1364BE295634B600CF8461 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		2C1364C0295636F800CF8461 /* CatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,42 @@
 		2C1364932956328C00CF8461 /* DZ21 */ = {
 			isa = PBXGroup;
 			children = (
+				2C1364A8295632BE00CF8461 /* CatModule */,
+				2C1364A9295632DA00CF8461 /* RandModule */,
 				2C1364942956328C00CF8461 /* AppDelegate.swift */,
 				2C1364962956328C00CF8461 /* SceneDelegate.swift */,
 				2C1364982956328C00CF8461 /* ViewController.swift */,
-				2C13649A2956328C00CF8461 /* Main.storyboard */,
 				2C13649D2956328D00CF8461 /* Assets.xcassets */,
 				2C13649F2956328D00CF8461 /* LaunchScreen.storyboard */,
 				2C1364A22956328D00CF8461 /* Info.plist */,
+				2C1364BE295634B600CF8461 /* Collection+Extension.swift */,
+				2C1364C0295636F800CF8461 /* CatCell.xib */,
 			);
 			path = DZ21;
+			sourceTree = "<group>";
+		};
+		2C1364A8295632BE00CF8461 /* CatModule */ = {
+			isa = PBXGroup;
+			children = (
+				2C1364AA2956330200CF8461 /* CatView.swift */,
+				2C1364AC2956330E00CF8461 /* CatInteractor.swift */,
+				2C1364AE2956335200CF8461 /* CatPresenter.swift */,
+				2C1364B02956335F00CF8461 /* CatEntity.swift */,
+				2C1364B22956336D00CF8461 /* CatRouter.swift */,
+			);
+			path = CatModule;
+			sourceTree = "<group>";
+		};
+		2C1364A9295632DA00CF8461 /* RandModule */ = {
+			isa = PBXGroup;
+			children = (
+				2C1364B42956337B00CF8461 /* RandView.swift */,
+				2C1364B62956338800CF8461 /* RandInteractor.swift */,
+				2C1364B82956339A00CF8461 /* RandPresenter.swift */,
+				2C1364BA295633A700CF8461 /* RandEntity.swift */,
+				2C1364BC295633B300CF8461 /* RandRouter.swift */,
+			);
+			path = RandModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +176,7 @@
 			files = (
 				2C1364A12956328D00CF8461 /* LaunchScreen.storyboard in Resources */,
 				2C13649E2956328D00CF8461 /* Assets.xcassets in Resources */,
-				2C13649C2956328C00CF8461 /* Main.storyboard in Resources */,
+				2C1364C1295636F800CF8461 /* CatCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +188,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1364992956328C00CF8461 /* ViewController.swift in Sources */,
+				2C1364BF295634B600CF8461 /* Collection+Extension.swift in Sources */,
+				2C1364BB295633A700CF8461 /* RandEntity.swift in Sources */,
+				2C1364AF2956335200CF8461 /* CatPresenter.swift in Sources */,
 				2C1364952956328C00CF8461 /* AppDelegate.swift in Sources */,
+				2C1364B92956339A00CF8461 /* RandPresenter.swift in Sources */,
+				2C1364B52956337B00CF8461 /* RandView.swift in Sources */,
+				2C1364B32956336D00CF8461 /* CatRouter.swift in Sources */,
+				2C1364BD295633B300CF8461 /* RandRouter.swift in Sources */,
 				2C1364972956328C00CF8461 /* SceneDelegate.swift in Sources */,
+				2C1364B12956335F00CF8461 /* CatEntity.swift in Sources */,
+				2C1364B72956338800CF8461 /* RandInteractor.swift in Sources */,
+				2C1364AB2956330200CF8461 /* CatView.swift in Sources */,
+				2C1364AD2956330E00CF8461 /* CatInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C13649A2956328C00CF8461 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C13649B2956328C00CF8461 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C13649F2956328D00CF8461 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +344,6 @@
 				INFOPLIST_FILE = DZ21/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +371,6 @@
 				INFOPLIST_FILE = DZ21/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
