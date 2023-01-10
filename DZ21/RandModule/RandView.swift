@@ -18,14 +18,15 @@ protocol RandViewProtocol {
 
 class RandViewController: UIViewController {
     var presenter: RandPresenterProtocol?
-    private let button: UIButton = {
-        let button = UIButton(type: .system)
-        button.setTitle("Change Color", for: .normal)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        return button
+    let button: UIButton = {
+        let myButton = UIButton(type: .system)
+        myButton.setTitle("Change Color", for: .normal)
+        myButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        return myButton
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         view.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true

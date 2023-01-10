@@ -16,6 +16,7 @@ protocol CatListRouter {
     var entry: EntryPoint? { get } //view
     static func start() -> CatListRouter
     func presentNewViewController()
+    func presentMathController()
 }
 
 class CatRouter: CatListRouter {
@@ -47,5 +48,10 @@ class CatRouter: CatListRouter {
         let newViewController = newRouter.view
         entry.present(newViewController as! UIViewController, animated: true, completion: nil)
     }
-
+    func presentMathController() {
+        guard let entry = entry else { return }
+        let newRouter = MathRouter.createModule()
+        let newViewController = newRouter.view
+        entry.present(newViewController as! UIViewController, animated: true, completion: nil)
+    }
 }

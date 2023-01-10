@@ -18,6 +18,7 @@ protocol CatsListPresenter {
     
     func interactorDidFetchCats(with result: Result<[Cat], Error>)
     func handleButtonTap()
+    func handleSecondButtonTap()
 }
 
 class CatPresenter: CatsListPresenter {
@@ -39,5 +40,8 @@ class CatPresenter: CatsListPresenter {
     }
     func handleButtonTap() {
         router?.presentNewViewController()
+    }
+    func handleSecondButtonTap() {
+        router?.presentMathController()
     }
 }

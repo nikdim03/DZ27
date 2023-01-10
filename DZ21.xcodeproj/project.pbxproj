@@ -24,7 +24,29 @@
 		2C1364BD295633B300CF8461 /* RandRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364BC295633B300CF8461 /* RandRouter.swift */; };
 		2C1364BF295634B600CF8461 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1364BE295634B600CF8461 /* Collection+Extension.swift */; };
 		2C1364C1295636F800CF8461 /* CatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1364C0295636F800CF8461 /* CatCell.xib */; };
+		2C39E879296D734000E97904 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39E878296D734000E97904 /* MathView.swift */; };
+		2C39E87B296D735000E97904 /* MathInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39E87A296D735000E97904 /* MathInteractor.swift */; };
+		2C39E87D296D735C00E97904 /* MathPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39E87C296D735C00E97904 /* MathPresenter.swift */; };
+		2C39E87F296D736800E97904 /* MathEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39E87E296D736800E97904 /* MathEntity.swift */; };
+		2C39E881296D737400E97904 /* MathRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39E880296D737400E97904 /* MathRouter.swift */; };
+		2C724DE1296DA72D0043229F /* MathViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DE0296DA72D0043229F /* MathViewTests.swift */; };
+		2C724DE3296DA7380043229F /* RandViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DE2296DA7380043229F /* RandViewTests.swift */; };
+		2C724DE5296DA7420043229F /* CatViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DE4296DA7420043229F /* CatViewTests.swift */; };
+		2C724DE7296DA9440043229F /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DE6296DA9440043229F /* Double+Extension.swift */; };
+		2C724DE9296DAD850043229F /* MathPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DE8296DAD850043229F /* MathPresenterTests.swift */; };
+		2C724DEB296DB7C20043229F /* CatPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DEA296DB7C20043229F /* CatPresenterTests.swift */; };
+		2C724DED296DB7E00043229F /* RandPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724DEC296DB7E00043229F /* RandPresenterTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C724DDB296DA71B0043229F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1364892956328C00CF8461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1364902956328C00CF8461;
+			remoteInfo = DZ21;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C1364912956328C00CF8461 /* DZ21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ21.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,10 +68,30 @@
 		2C1364BC295633B300CF8461 /* RandRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandRouter.swift; sourceTree = "<group>"; };
 		2C1364BE295634B600CF8461 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		2C1364C0295636F800CF8461 /* CatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatCell.xib; sourceTree = "<group>"; };
+		2C39E878296D734000E97904 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
+		2C39E87A296D735000E97904 /* MathInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathInteractor.swift; sourceTree = "<group>"; };
+		2C39E87C296D735C00E97904 /* MathPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathPresenter.swift; sourceTree = "<group>"; };
+		2C39E87E296D736800E97904 /* MathEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEntity.swift; sourceTree = "<group>"; };
+		2C39E880296D737400E97904 /* MathRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathRouter.swift; sourceTree = "<group>"; };
+		2C724DD7296DA71B0043229F /* DZ21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZ21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C724DE0296DA72D0043229F /* MathViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewTests.swift; sourceTree = "<group>"; };
+		2C724DE2296DA7380043229F /* RandViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandViewTests.swift; sourceTree = "<group>"; };
+		2C724DE4296DA7420043229F /* CatViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewTests.swift; sourceTree = "<group>"; };
+		2C724DE6296DA9440043229F /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		2C724DE8296DAD850043229F /* MathPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathPresenterTests.swift; sourceTree = "<group>"; };
+		2C724DEA296DB7C20043229F /* CatPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPresenterTests.swift; sourceTree = "<group>"; };
+		2C724DEC296DB7E00043229F /* RandPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2C13648E2956328C00CF8461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C724DD4296DA71B0043229F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1364932956328C00CF8461 /* DZ21 */,
+				2C724DD8296DA71B0043229F /* DZ21Tests */,
 				2C1364922956328C00CF8461 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1364912956328C00CF8461 /* DZ21.app */,
+				2C724DD7296DA71B0043229F /* DZ21Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +124,7 @@
 			children = (
 				2C1364A8295632BE00CF8461 /* CatModule */,
 				2C1364A9295632DA00CF8461 /* RandModule */,
+				2C39E877296D724100E97904 /* MathModule */,
 				2C1364942956328C00CF8461 /* AppDelegate.swift */,
 				2C1364962956328C00CF8461 /* SceneDelegate.swift */,
 				2C1364982956328C00CF8461 /* ViewController.swift */,
@@ -88,6 +133,7 @@
 				2C1364A22956328D00CF8461 /* Info.plist */,
 				2C1364BE295634B600CF8461 /* Collection+Extension.swift */,
 				2C1364C0295636F800CF8461 /* CatCell.xib */,
+				2C724DE6296DA9440043229F /* Double+Extension.swift */,
 			);
 			path = DZ21;
 			sourceTree = "<group>";
@@ -116,6 +162,31 @@
 			path = RandModule;
 			sourceTree = "<group>";
 		};
+		2C39E877296D724100E97904 /* MathModule */ = {
+			isa = PBXGroup;
+			children = (
+				2C39E878296D734000E97904 /* MathView.swift */,
+				2C39E87A296D735000E97904 /* MathInteractor.swift */,
+				2C39E87C296D735C00E97904 /* MathPresenter.swift */,
+				2C39E87E296D736800E97904 /* MathEntity.swift */,
+				2C39E880296D737400E97904 /* MathRouter.swift */,
+			);
+			path = MathModule;
+			sourceTree = "<group>";
+		};
+		2C724DD8296DA71B0043229F /* DZ21Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C724DE0296DA72D0043229F /* MathViewTests.swift */,
+				2C724DE8296DAD850043229F /* MathPresenterTests.swift */,
+				2C724DE4296DA7420043229F /* CatViewTests.swift */,
+				2C724DEA296DB7C20043229F /* CatPresenterTests.swift */,
+				2C724DE2296DA7380043229F /* RandViewTests.swift */,
+				2C724DEC296DB7E00043229F /* RandPresenterTests.swift */,
+			);
+			path = DZ21Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +207,24 @@
 			productReference = 2C1364912956328C00CF8461 /* DZ21.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2C724DD6296DA71B0043229F /* DZ21Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C724DDF296DA71B0043229F /* Build configuration list for PBXNativeTarget "DZ21Tests" */;
+			buildPhases = (
+				2C724DD3296DA71B0043229F /* Sources */,
+				2C724DD4296DA71B0043229F /* Frameworks */,
+				2C724DD5296DA71B0043229F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C724DDC296DA71B0043229F /* PBXTargetDependency */,
+			);
+			name = DZ21Tests;
+			productName = DZ21Tests;
+			productReference = 2C724DD7296DA71B0043229F /* DZ21Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +237,10 @@
 				TargetAttributes = {
 					2C1364902956328C00CF8461 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					2C724DD6296DA71B0043229F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2C1364902956328C00CF8461;
 					};
 				};
 			};
@@ -165,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				2C1364902956328C00CF8461 /* DZ21 */,
+				2C724DD6296DA71B0043229F /* DZ21Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +274,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C724DD5296DA71B0043229F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,23 +289,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1364992956328C00CF8461 /* ViewController.swift in Sources */,
+				2C39E881296D737400E97904 /* MathRouter.swift in Sources */,
 				2C1364BF295634B600CF8461 /* Collection+Extension.swift in Sources */,
+				2C39E87F296D736800E97904 /* MathEntity.swift in Sources */,
 				2C1364BB295633A700CF8461 /* RandEntity.swift in Sources */,
 				2C1364AF2956335200CF8461 /* CatPresenter.swift in Sources */,
+				2C39E87B296D735000E97904 /* MathInteractor.swift in Sources */,
 				2C1364952956328C00CF8461 /* AppDelegate.swift in Sources */,
+				2C724DE7296DA9440043229F /* Double+Extension.swift in Sources */,
 				2C1364B92956339A00CF8461 /* RandPresenter.swift in Sources */,
 				2C1364B52956337B00CF8461 /* RandView.swift in Sources */,
 				2C1364B32956336D00CF8461 /* CatRouter.swift in Sources */,
 				2C1364BD295633B300CF8461 /* RandRouter.swift in Sources */,
 				2C1364972956328C00CF8461 /* SceneDelegate.swift in Sources */,
+				2C39E879296D734000E97904 /* MathView.swift in Sources */,
 				2C1364B12956335F00CF8461 /* CatEntity.swift in Sources */,
 				2C1364B72956338800CF8461 /* RandInteractor.swift in Sources */,
 				2C1364AB2956330200CF8461 /* CatView.swift in Sources */,
 				2C1364AD2956330E00CF8461 /* CatInteractor.swift in Sources */,
+				2C39E87D296D735C00E97904 /* MathPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C724DD3296DA71B0043229F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C724DE1296DA72D0043229F /* MathViewTests.swift in Sources */,
+				2C724DE3296DA7380043229F /* RandViewTests.swift in Sources */,
+				2C724DE5296DA7420043229F /* CatViewTests.swift in Sources */,
+				2C724DED296DB7E00043229F /* RandPresenterTests.swift in Sources */,
+				2C724DEB296DB7C20043229F /* CatPresenterTests.swift in Sources */,
+				2C724DE9296DAD850043229F /* MathPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C724DDC296DA71B0043229F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1364902956328C00CF8461 /* DZ21 */;
+			targetProxy = 2C724DDB296DA71B0043229F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2C13649F2956328D00CF8461 /* LaunchScreen.storyboard */ = {
@@ -386,6 +514,42 @@
 			};
 			name = Release;
 		};
+		2C724DDD296DA71B0043229F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J25YA2CZDR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriynikulin.DZ21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZ21.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DZ21";
+			};
+			name = Debug;
+		};
+		2C724DDE296DA71B0043229F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J25YA2CZDR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriynikulin.DZ21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZ21.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DZ21";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,6 +567,15 @@
 			buildConfigurations = (
 				2C1364A62956328D00CF8461 /* Debug */,
 				2C1364A72956328D00CF8461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C724DDF296DA71B0043229F /* Build configuration list for PBXNativeTarget "DZ21Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C724DDD296DA71B0043229F /* Debug */,
+				2C724DDE296DA71B0043229F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -79,6 +79,7 @@ class CatViewController: UIViewController, CatListView {
         super.viewDidLoad()
         title = "CatsApp"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Present", style: .plain, target: self, action: #selector(handleButtonTap))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Calculator", style: .plain, target: self, action: #selector(handlesecondButtonTap))
         let flowLayout = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
         flowLayout.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(flowLayout)
@@ -126,6 +127,10 @@ class CatViewController: UIViewController, CatListView {
     }
     @objc func handleButtonTap() {
         presenter?.handleButtonTap()
+    }
+    
+    @objc func handlesecondButtonTap() {
+        presenter?.handleSecondButtonTap()
     }
 }
 
